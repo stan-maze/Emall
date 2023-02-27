@@ -14,12 +14,12 @@ public class EmailUtil {
         props.put("mail.smtp.starttls.enable", "true");
         Authenticator auth = new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("huangrz2001@163.com", "YLFHJVGUZHJHHJVE");
+                return new PasswordAuthentication("sender email address", "sender email address password");
             }
         };
         Session session = Session.getInstance(props, auth);
         Message email = new MimeMessage(session);
-        email.setFrom(new InternetAddress("huangrz2001@163.com"));
+        email.setFrom(new InternetAddress("sender email address"));
         email.setRecipient(Message.RecipientType.TO, new InternetAddress(recipient));
         email.setSubject(subject);
         email.setText(message);
