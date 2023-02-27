@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in service.UserServiceTest
+testLogin(service.UserServiceTest)  Time elapsed: 0 s  <<< ERROR!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testLogin(UserServiceTest.java:71)
+
+testGetAllUsers(service.UserServiceTest)  Time elapsed: 0 s  <<< ERROR!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testGetAllUsers(UserServiceTest.java:56)
+
+testUpdateUser(service.UserServiceTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testUpdateUser(UserServiceTest.java:45)
+
+testInsertUser(service.UserServiceTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testInsertUser(UserServiceTest.java:35)
+
+testDeleteUser(service.UserServiceTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testDeleteUser(UserServiceTest.java:63)
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="service.UserServiceTest" time="0.006" tests="5" errors="5" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\temp\JavaWeb\demo\target\test-classes;D:\temp\JavaWeb\demo\target\classes;C:\Users\Mazer.H\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\Mazer.H\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\Mazer.H\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Mazer.H\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Mazer.H\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar;C:\Users\Mazer.H\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Mazer.H\.m2\repository\org\mybatis\mybatis-spring\2.0.6\mybatis-spring-2.0.6.jar;C:\Users\Mazer.H\.m2\repository\org\mybatis\mybatis\3.5.5\mybatis-3.5.5.jar;C:\Users\Mazer.H\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Mazer.H\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mazer.H\AppData\Local\Temp\surefire10955382857714896467\surefirebooter1065803023693383504.jar C:\Users\Mazer.H\AppData\Local\Temp\surefire10955382857714896467 2023-02-27T10-16-48_694-jvmRun1 surefire10815810912876014977tmp surefire_08817402460876546245tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\temp\JavaWeb\demo\target\test-classes;D:\temp\JavaWeb\demo\target\classes;C:\Users\Mazer.H\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\Mazer.H\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\Mazer.H\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Mazer.H\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Mazer.H\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar;C:\Users\Mazer.H\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Mazer.H\.m2\repository\org\mybatis\mybatis-spring\2.0.6\mybatis-spring-2.0.6.jar;C:\Users\Mazer.H\.m2\repository\org\mybatis\mybatis\3.5.5\mybatis-3.5.5.jar;C:\Users\Mazer.H\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Mazer.H\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mazer.H"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\temp\JavaWeb\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mazer.H\AppData\Local\Temp\surefire10955382857714896467\surefirebooter1065803023693383504.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Mazer.H"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Mazer.H\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mazer.H\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="D:\temp\JavaWeb\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\TDM-GCC-32\bin;C:\win_flex_bison-2.5.20;C:\MinGW\bin;D:\ffmpeg-2022-03-24-git-28d011516b-full_build\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\include;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\lib\x64;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\extras\CUPTI\lib64;D:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.5\bin\win64;D:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.5\common\lib\x64D;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Python\Python39\;C:\Python\Python39\Scripts\;D:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\Users\Mazer.H\apache-maven-3.8.6\bin;D:\Users\Mazer.H\apache-tomcat-8.5.83\lib;D:\Users\Mazer.H\apache-tomcat-8.5.83\bin;D:\Users\Mazer.H\apache-tomcat-8.5.83\lib\servlet-api.jar;C:\Users\Mazer.H\AppData\Local\Microsoft\WindowsApps;C:\Users\Mazer.H\AppData\Local\Programs\Microsoft VS Code;C:\Users\Mazer.H\AppData\Local\Programs\Microsoft VS Code\bin;D:\Program Files\SQLite;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\Users\Mazer.H\anaconda3;D:\Users\Mazer.H\anaconda3\Library\mingw-w64\bin;D:\Users\Mazer.H\anaconda3\Library\usr\bin;D:\Users\Mazer.H\anaconda3\Library\bin;D:\Users\Mazer.H\anaconda3\Scripts;C:\Python\Python39\Scripts\;C:\Python\Python39\;C:\Users\Mazer.H\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\Mazer.H\AppData\Local\Programs\Microsoft VS Code\bin;D:\Program Files\JetBrains\CLion 2021.3.4\bin;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;D:\Program Files\JetBrains\PyCharm 2021.3.3\bin;;C:\Windows\System32;D:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\bin;;D:\Program Files\ffmpeg\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testLogin" classname="service.UserServiceTest" time="0">
+    <error message="Duplicate entry &apos;johndoe@example.com&apos; for key &apos;user.email&apos;" type="java.sql.SQLIntegrityConstraintViolationException">java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testLogin(UserServiceTest.java:71)
+</error>
+  </testcase>
+  <testcase name="testGetAllUsers" classname="service.UserServiceTest" time="0">
+    <error message="Duplicate entry &apos;johndoe@example.com&apos; for key &apos;user.email&apos;" type="java.sql.SQLIntegrityConstraintViolationException">java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testGetAllUsers(UserServiceTest.java:56)
+</error>
+  </testcase>
+  <testcase name="testUpdateUser" classname="service.UserServiceTest" time="0.002">
+    <error message="Duplicate entry &apos;johndoe@example.com&apos; for key &apos;user.email&apos;" type="java.sql.SQLIntegrityConstraintViolationException">java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testUpdateUser(UserServiceTest.java:45)
+</error>
+  </testcase>
+  <testcase name="testInsertUser" classname="service.UserServiceTest" time="0.002">
+    <error message="Duplicate entry &apos;johndoe@example.com&apos; for key &apos;user.email&apos;" type="java.sql.SQLIntegrityConstraintViolationException">java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testInsertUser(UserServiceTest.java:35)
+</error>
+  </testcase>
+  <testcase name="testDeleteUser" classname="service.UserServiceTest" time="0.002">
+    <error message="Duplicate entry &apos;johndoe@example.com&apos; for key &apos;user.email&apos;" type="java.sql.SQLIntegrityConstraintViolationException">java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'johndoe@example.com' for key 'user.email'
+	at service.UserServiceTest.testDeleteUser(UserServiceTest.java:63)
+</error>
+  </testcase>
+</testsuite>

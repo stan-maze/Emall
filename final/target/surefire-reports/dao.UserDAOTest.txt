@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: dao.UserDAOTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.463 s <<< FAILURE! - in dao.UserDAOTest
+testInsertUser(dao.UserDAOTest)  Time elapsed: 0.013 s  <<< ERROR!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'test@example.com' for key 'user.email'
+	at dao.UserDAOTest.testInsertUser(UserDAOTest.java:36)
+
+testGetNewUserId(dao.UserDAOTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<11> but was:<5>
+	at dao.UserDAOTest.testGetNewUserId(UserDAOTest.java:28)
+
