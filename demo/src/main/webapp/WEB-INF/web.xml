@@ -1,0 +1,51 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.eshop.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.eshop.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>mLoginServlet</servlet-name>
+    <servlet-class>com.eshop.servlet.mLoginServlet</servlet-class>
+  </servlet>
+<!--  <servlet>-->
+<!--    <servlet-name>HomeServlet</servlet-name>-->
+<!--    <servlet-class>com.eshop.servlet.HomeServlet</servlet-class>-->
+<!--  </servlet>-->
+
+
+
+<!--  配置了映射就可以由servlet协作处理jsp-->
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/pages/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/pages/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mLoginServlet</servlet-name>
+    <url-pattern>/pages/mlogin</url-pattern>
+  </servlet-mapping>
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>HomeServlet</servlet-name>-->
+<!--    <url-pattern>/pages/home.jsp</url-pattern>-->
+<!--  </servlet-mapping>-->
+
+
+<!--  <welcome-file-list>-->
+<!--    <welcome-file>/pages/login.jsp</welcome-file>-->
+<!--  </welcome-file-list>-->
+
+</web-app>
