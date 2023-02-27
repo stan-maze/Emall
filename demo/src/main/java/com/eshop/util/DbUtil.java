@@ -14,7 +14,7 @@ public class DbUtil {
         } else {
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/webdb", "root", "Pieqs3.14");
+                connection = DriverManager.getConnection("database url", "name", "passward");
             } catch (ClassNotFoundException | SQLException ex) {
                 System.out.println("Error: " + ex.getMessage());
             }
